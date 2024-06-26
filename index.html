@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>狐狸精导航地址加载中...</title>
+<meta name="keywords" content="富强,民主,文明,和谐">
+<meta name="description" content="你的专属福利网站！">
+<link rel="shortcut icon" href="favicon.ico">
+<style>
+      html{font-size:14px}
+      body{margin: 0px;}
+      a{text-decoration:none;color:#fff}
+      .logo_img{max-width:320px;width:80%;margin-top:30px}
+      .loading_img{max-width:160px;width:80%}
+      h1{text-align:center;color:#fff;font-size:34px;font-weight:100;text-transform:uppercase;padding:10px 0}
+      .backdrop{display:-webkit-box;display:flex;-webkit-box-pack:center;justify-content:center;-webkit-box-align:center;align-items:center;height:50px;width:100%}
+      .loader{display:-webkit-box;display:flex;-webkit-box-align:center;align-items:center;-webkit-box-pack:center;justify-content:center}
+      .dot{background:#fff;margin:5px;-webkit-animation-name:loader;animation-name:loader;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate;animation-direction:alternate}
+      .dot:nth-child(1){-webkit-animation-delay:.2s;animation-delay:.2s}
+      .dot:nth-child(2){-webkit-animation-delay:.4s;animation-delay:.4s}
+      .dot:nth-child(3){-webkit-animation-delay:.6s;animation-delay:.6s}
+      .dot:nth-child(4){-webkit-animation-delay:.8s;animation-delay:.8s}
+      .dot:nth-child(5){-webkit-animation-delay:1s;animation-delay:1s}
+      @-webkit-keyframes loader{from{width:2px;height:2px;border-radius:1px}
+      to{width:20px;height:20px;border-radius:10px}
+      }
+      @keyframes loader{from{width:2px;height:2px;border-radius:1px}
+      to{width:20px;height:20px;border-radius:10px}
+      }
+    </style>
+</head>
+<body style="background:#161622">
+<h1 alt="富强,民主,文明,和谐"><b>狐狸精导航</b> Loading</h1>
+<p style="text-align:center;color:#fff;padding:20px 0 0 0;">正在打开&nbsp;<span style="background-color:#22a0ff;">&nbsp;狐狸精导航&nbsp;</span>，请等待3秒钟...</p>
+<div class="backdrop">
+<div class="loader">
+<div class="dot"></div>
+<div class="dot"></div>
+<div class="dot"></div>
+<div class="dot"></div>
+<div class="dot"></div>
+</div>
+</div>
+<p style="text-align:center"><span style="color:#e2e2e2">页面如未正常打开，请按F5刷新重试！</span></p>
+<script type="text/javascript">
+    function noncestr(min, max) {
+        var str = "",
+            range = min,
+            arr = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
+    
+        range = Math.round(Math.random() * (max - min)) + min;
+        for (var i = 0; i < range; i++) {
+            var pos = Math.round(Math.random() * (arr.length - 1));
+            str += arr[pos];
+        }
+        return str;
+    }
+
+    var pre1=noncestr(2,4);
+    
+    //var rnd=Math.floor(Math.random()*998)+1;
+    //定时3s后跳转主页
+    setInterval("goMain()",3000);
+function goMain(){
+var urlList=["https://"+pre1+".hljdh.cc","https://"+pre1+".hljdh.cc"];
+	document.location =urlList[Math.floor(Math.random()*urlList.length)]+"?form="+document.referrer;
+   }
+</script>
